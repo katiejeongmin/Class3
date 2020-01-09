@@ -1,0 +1,276 @@
+
+*
+{
+  box-sizing: border-box;
+  font-family: 'Alata', sans-serif;
+}
+
+html{
+  font-size: 14px;
+}
+
+h1{
+  font-size: 3.5rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+main{
+min-height: 90vh;
+background-color: #4CAF50;
+position: relative;
+overflow: hidden;
+}
+
+main::after{
+  content: '8';
+  font-size: 90vw;
+  font-weight:bold;
+  opacity: 0.3;
+  color: darkgreen;
+  display: block;
+  position: absolute;
+  right: 0;
+  transform: rotate(-90deg)translate(60%, -0%);
+}
+
+.rounded_image{
+  width: 60vw;
+  height: 60vw;
+  background-color: orange;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 10;
+  transform: translate(-45%, -30%);
+  border-radius: 50%;
+  overflow: hidden;
+  background: url('buildings-1838418_1920.png') no-repeat;
+  background-size: cover;
+}
+
+.rounded_image::after{
+  content: '';
+  display: block;
+  width: 30vw;
+  height: 30vw;
+  background-color:#4CAF50;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav{
+  background-color: pink;
+  overflow: auto;
+  padding: 1rem 3rem;
+  position: relative;
+  z-index: 10;
+}
+
+nav .nav_list{
+margin: 0;
+padding: 0;
+list-style: none;
+float: right;
+}
+
+nav .nav_list__item{
+display: inline-block;
+padding: 1rem;
+margin: 0 1rem;
+background-color: palevioletred;
+font-size: 1.2rem;
+color:#fff;
+font-weight: bold;
+}
+
+nav .nav_list__item:last-child{
+margin-right: 0;
+}
+
+.main_content{
+  color: green;
+  width: 80%;
+  max-width: 500px;
+  background-color: coral;
+  position: absolute;
+  z-index: 10;
+  right: 10%;
+  top: 50%;
+  transform:translate(0,-50%);
+}
+
+.main_content h1{
+  font-size: 400;
+}
+
+#content
+{
+  padding-top: 50px;
+}
+.agreement
+{
+  text-align: center;
+}
+
+.agreement h2
+{
+  font-weight: Bold;
+  color: navy;
+}
+
+.agreement h4
+{
+  color: navy;
+}
+
+.box
+{
+  display:flex;
+  align-content: center;
+}
+
+a {
+border-radius: 50%;
+height:100px;
+width:100px;
+margin: auto;
+}
+
+div.box{
+  justify-content: center;
+  padding: 40px;
+}
+
+#content2
+{
+  background-color: #173552;
+  padding: 50px;
+  padding-top: 1%;
+  padding-left: 10%;
+}
+
+.immersive h2{
+  color: white;
+  font-weight: bold;
+}
+.immersive h4{
+  color: #FBDABF;
+}
+.learnmore h4{
+  color: white;
+  font-weight:300;
+  transform-origin: right top;
+  transform: rotate(90deg);
+  text-align: right;
+}
+
+.workplace{
+  width: 250px;
+  height: 200px;
+}
+
+.rectangle{
+  height: 200px;
+  width: 100px;
+  background-color: #FBDABF;
+}
+
+.rectangle::before {
+
+}
+
+.rectangle::after {
+
+}
+
+.line{
+  display: inline;
+  position: absolute;
+  right: 20%;
+  bottom: -150%;
+  width: 200px;
+  height: 500px;
+}
+
+.line h3{
+  color: white;
+
+}
+
+.line p{
+  color: white;
+  font-weight: 300;
+}
+
+#content3{
+  padding: 50px;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.confidence h2{
+  color: navy;
+  font-weight: bold;
+}
+
+.line2 p{
+  font-weight: 300;
+  color: grey;
+}
+
+.parent{
+  float: right;
+  margin: 10%;
+}
+
+.workplace2{
+  position:absolute;
+  z-index: 2;
+}
+
+.rectangle2{
+  position: relative;
+  height: 300px;
+  width: 100px;
+  background-color: #FBDABF;
+  z-index: -1;
+
+}
+
+
+.book{
+    background-color: #173552;
+    border: none;
+    color: white;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.view{
+  background-color: #173552;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 35px;
+}
